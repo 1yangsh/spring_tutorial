@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MemberServiceTest { // ctrl + r = 전에 실행했던 것을 한번 더 실행해줌
 
-    MemberService memberService = new MemberService();
+    MemberService memberService;
     MemoryMemberRepository memberRepository;
 
     @BeforeEach
